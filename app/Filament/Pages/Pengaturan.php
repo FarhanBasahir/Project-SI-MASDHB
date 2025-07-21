@@ -20,6 +20,10 @@ class Pengaturan extends Page implements HasForms
     protected static ?int $navigationSort = 3;
     protected static ?string $navigationGroup = 'Sistem';
 
+    protected static ?string $slug = 'pengaturan';
+    protected static ?string $navigationLabel = 'Pengaturan';
+    protected static ?string $title = 'Pengaturan Sistem';
+
     public ?array $data = [];
 
     public function mount(): void
